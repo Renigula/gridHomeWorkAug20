@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 8px;
     
 }
 
@@ -53,26 +54,28 @@
     align-items: center;
     grid-column: span 2;
     justify-content: space-evenly;
-    background-color: rgb(255, 155, 205);
+    background-color:fuchsia;
     font-family: cursive;
 
 }
 #go{
     background-color: aquamarine;
-
 }
 #article{
-    background-color: blue;
+   
     display: flex;
-    flex-direction: column;
+    flex-direction: column;`
 
 }
 #article>h1:first-child{
     margin-left:300px;
+    font: bold;
+    font-family: cursive;
+    
    
 }
 #related{
-    background-color: chocolate;
+    
 }
 #copywrite{
     background-color: cyan;
@@ -81,4 +84,17 @@
     display: flex;
     flex-direction: column;
 }
-
+#related{
+    display: flex;
+    flex-direction: column;
+    font: bold;
+    font-family: cursive;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font: bold;
+    font-family: cursive;
+    font-size: 40px;
+}
+    
