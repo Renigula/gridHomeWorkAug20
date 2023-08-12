@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+#gridParent{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 100px 100px 1fr 100px;
+    width: 90vw;
+    height: 100vh;
+    
+}
+#header{
+    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center;
+    grid-column: span 2;
+    }
+    #header > p{
+        font-style: italic;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: 2px 2px 2px ;
+      
+    }
+      
+    p:hover {
+    font-size: 16px;
+    color: black;
+    transition: font-size 0.3s ease, color 0.3s ease; /* Adding smooth transition */
+  }
+     p:hover {
+    font-size: 25px; 
+    color: black; 
+    } 
+    #header>p:hover {
+        font-size: 50px; 
+        color: black; 
+        } 
+  
+#empty{
+    grid-template-columns: 200px;
+    background-color: chartreuse;
+}
+#navBar{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    background-color: lightblue;
+    align-items: center;
+    grid-column: span 2;
+    justify-content: space-evenly;
+    background-color: rgb(255, 155, 205);
+    font-family: cursive;
+
+}
+#go{
+    background-color: aquamarine;
+
+}
+#article{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+
+}
+#article>h1:first-child{
+    margin-left:300px;
+   
+}
+#related{
+    background-color: chocolate;
+}
+#copywrite{
+    background-color: cyan;
+}
+#related{
+    display: flex;
+    flex-direction: column;
+}
+
